@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:text="Ingrese el numero"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		 />
+	<EditText
+		android:inputType="number"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText1"
+		 />
+	<TextView
+		android:text="error"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_gravity="center"
+		android:gravity="center" />
+	<Button
+		android:text="Go"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button1"
+		android:enabled="false" 
+		 />
+	<ListView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="318.5dp"
+		android:id="@+id/listView1" />
+	<Button
+		android:text="Rendirme"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button2"
+		android:layout_gravity="end|right|bottom"
+		android:layout_marginTop="0.5dp"
+		android:gravity="center" />
+	<Button
+		android:text="VER NUMERO"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button3" />
+
+</LinearLayout>
